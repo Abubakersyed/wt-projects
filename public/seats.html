@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seat Selection — DuneCinema</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="container nav-inner">
+    <a class="brand" href="/">DuneCinema</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/movies.html">Movies</a>
+      <a href="/bookings.html">My Bookings</a>
+      <span id="nav-auth"></span>
+    </div>
+  </div></nav>
+  <main class="container">
+    <h1 class="section-title">Select Seats</h1>
+    <div id="showinfo" class="meta"></div>
+    <div class="seat-legend">
+      <span><i></i> Available</span>
+      <span><i style="background:var(--accent)"></i> Selected</span>
+      <span><i style="background:#333"></i> Booked</span>
+      <span><i style="border-color:var(--gold)"></i> Premium</span>
+    </div>
+    <div id="seats"></div>
+    <div class="summary" id="summary">
+      <h3>Booking Summary</h3>
+      <div id="selList">No seats selected</div>
+      <div style="margin-top:10px;font-weight:700" id="total">Total: ₹0</div>
+      <button class="btn primary" id="proceed" style="margin-top:12px;width:100%" disabled>Proceed to Checkout</button>
+    </div>
+  </main>
+  <footer class="footer"><div class="container">© 2026 DuneCinema</div></footer>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/seats.js"></script>
+</body>
+</html>

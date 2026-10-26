@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login — DuneCinema</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="form-card">
+      <h2>Login</h2>
+      <div class="field"><label>Email</label><input id="email" type="email" /></div>
+      <div class="field"><label>Password</label><input id="password" type="password" /></div>
+      <button class="btn primary" id="submit" style="width:100%">Login</button>
+      <div class="error" id="err"></div>
+      <p style="margin-top:12px;color:var(--muted)">No account? <a href="/signup.html" style="color:var(--accent)">Sign up</a></p>
+    </div>
+  </main>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/login.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "u1792858700501",
+    "name": "T2",
+    "email": "t2@example.com",
+    "passwordHash": "$2b$10$tzwNujblglOiObudxbBW7OLx/6FS8WKQ0VbSFjVpym/eCg6g0Kdk.",
+    "createdAt": "2026-10-24T16:18:20.501Z",
+    "profile": {
+      "phone": "",
+      "city": ""
+    }
+  },
+  {
+    "id": "u1792858957296",
+    "name": "BasementBot",
+    "email": "thesurfingone4@gmail.com",
+    "passwordHash": "$2b$10$sT90Djm1lkUHhLLA6iZ18.02t55qTwqmfgT/OCoWiGNUH04TnxyVm",
+    "createdAt": "2026-10-24T16:22:37.296Z",
+    "profile": {
+      "phone": "",
+      "city": ""
+    }
+  },
+  {
+    "id": "u1793017517609",
+    "name": "srujan",
+    "email": "srujanreddy007@gmail.com",
+    "passwordHash": "$2b$10$u2GJ4FF6PfZtvfrsyV478.WvTEMMXnjfyXVm8gkg6cGIqJNO5dT.q",
+    "createdAt": "2026-10-26T12:25:17.609Z",
+    "profile": {
+      "phone": "",
+      "city": ""
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "t1",
+    "name": "Grand Cinema",
+    "city": "Mumbai",
+    "address": "Downtown Mall, Mumbai"
+  },
+  {
+    "id": "t2",
+    "name": "Starlight Multiplex",
+    "city": "Delhi",
+    "address": "City Center, Delhi"
+  },
+  {
+    "id": "t3",
+    "name": "Royal Screens",
+    "city": "Bangalore",
+    "address": "Tech Park, Bangalore"
+  }
+]

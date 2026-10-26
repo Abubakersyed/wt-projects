@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile — DuneCinema</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="container nav-inner">
+    <a class="brand" href="/">DuneCinema</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/movies.html">Movies</a>
+      <a href="/bookings.html">My Bookings</a>
+      <span id="nav-auth"></span>
+    </div>
+  </div></nav>
+  <main class="container">
+    <div class="profile-card">
+      <h2>My Profile</h2>
+      <div class="field"><label>Name</label><input id="name" /></div>
+      <div class="field"><label>Email</label><input id="email" disabled /></div>
+      <div class="field"><label>Phone</label><input id="phone" /></div>
+      <div class="field"><label>City</label><input id="city" /></div>
+      <button class="btn primary" id="save">Save</button>
+      <div class="error" id="err"></div>
+    </div>
+  </main>
+  <footer class="footer"><div class="container">© 2026 DuneCinema</div></footer>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/profile.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout — DuneCinema</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="container nav-inner">
+    <a class="brand" href="/">DuneCinema</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/movies.html">Movies</a>
+      <a href="/bookings.html">My Bookings</a>
+      <span id="nav-auth"></span>
+    </div>
+  </div></nav>
+  <main class="container">
+    <h1 class="section-title">Checkout</h1>
+    <div id="details" class="summary"></div>
+    <div class="form-card" style="margin-top:20px">
+      <h2>Payment (Simulated)</h2>
+      <div class="field"><label>Card Number</label><input id="card" placeholder="4242 4242 4242 4242" /></div>
+      <div class="field"><label>Name on Card</label><input id="name" placeholder="John Doe" /></div>
+      <div class="field"><label>Expiry</label><input id="exp" placeholder="12/28" /></div>
+      <div class="field"><label>CVV</label><input id="cvv" placeholder="123" /></div>
+      <button class="btn primary" id="pay" style="width:100%">Pay Now</button>
+      <div class="error" id="err"></div>
+    </div>
+  </main>
+  <footer class="footer"><div class="container">© 2026 DuneCinema</div></footer>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/checkout.js"></script>
+</body>
+</html>

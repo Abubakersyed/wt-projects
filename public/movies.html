@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Movies — DuneCinema</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="container nav-inner">
+    <a class="brand" href="/">DuneCinema</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/movies.html">Movies</a>
+      <a href="/bookings.html">My Bookings</a>
+      <span id="nav-auth"></span>
+    </div>
+  </div></nav>
+  <main class="container">
+    <h1 class="section-title">Movies</h1>
+    <div class="searchbar">
+      <input id="q" placeholder="Search movies..." />
+    </div>
+    <div class="filters">
+      <select id="genre"><option value="">All genres</option></select>
+      <select id="language"><option value="">All languages</option></select>
+      <select id="rating">
+        <option value="">Any rating</option>
+        <option value="7">7+</option>
+        <option value="8">8+</option>
+      </select>
+      <select id="status">
+        <option value="">All</option>
+        <option value="now">Now Showing</option>
+        <option value="coming">Coming Soon</option>
+        <option value="trending">Trending</option>
+      </select>
+    </div>
+    <div class="grid" id="grid"></div>
+    <div id="empty" class="empty" style="display:none">No movies found</div>
+  </main>
+  <footer class="footer"><div class="container">© 2026 DuneCinema</div></footer>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/movies.js"></script>
+</body>
+</html>

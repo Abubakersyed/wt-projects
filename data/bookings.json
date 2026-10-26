@@ -1,0 +1,27 @@
+[
+  {
+    "id": "BKMVMLS2ZLE9UU",
+    "userId": "u1792858700501",
+    "showId": "s4",
+    "seats": [
+      "B1",
+      "B2"
+    ],
+    "total": 500,
+    "status": "cancelled",
+    "createdAt": "2026-10-24T16:18:20.577Z",
+    "cancelledAt": "2026-10-24T16:18:20.596Z"
+  },
+  {
+    "id": "BKMVMLXS3JDZX3",
+    "userId": "u1792858957296",
+    "showId": "s28",
+    "seats": [
+      "C4",
+      "C6"
+    ],
+    "total": 500,
+    "status": "confirmed",
+    "createdAt": "2026-10-24T16:22:46.399Z"
+  }
+]

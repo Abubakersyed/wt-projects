@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DuneCinema — Movie Tickets</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <nav class="navbar"><div class="container nav-inner">
+    <a class="brand" href="/">DuneCinema</a>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/movies.html">Movies</a>
+      <a href="/bookings.html">My Bookings</a>
+      <span id="nav-auth"></span>
+    </div>
+  </div></nav>
+  <main class="container">
+    <section class="hero" id="hero"></section>
+    <section class="section">
+      <h2 class="section-title">Now Showing</h2>
+      <div class="grid" id="now"></div>
+    </section>
+    <section class="section">
+      <h2 class="section-title">Trending</h2>
+      <div class="grid" id="trending"></div>
+    </section>
+    <section class="section">
+      <h2 class="section-title">Coming Soon</h2>
+      <div class="grid" id="coming"></div>
+    </section>
+  </main>
+  <footer class="footer"><div class="container">© 2026 DuneCinema. All rights reserved.</div></footer>
+  <div class="toast"></div>
+  <script src="/js/common.js"></script>
+  <script src="/js/home.js"></script>
+</body>
+</html>
